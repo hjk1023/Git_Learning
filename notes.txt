@@ -1,0 +1,13 @@
+creat repository:
+	1.initialize a Git repository : git init
+	2.add file to the repo : git add <file>
+				 git commit
+version rollback:
+	git reset --hard commit_ID
+	git log
+	git reflog
+undo changes:
+	discarding changes in the workspace : git checkout -- file
+	workspace+stage : 1.git reset HEAD file
+			  2.git checkout --file
+	commit to the rep : see version rollback
