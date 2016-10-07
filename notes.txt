@@ -11,3 +11,7 @@ undo changes:
 	workspace+stage : 1.git reset HEAD file
 			  2.git checkout --file
 	commit to the rep : see version rollback
+remove file:
+	git rm
+remote repo:
+	ssh key : ssh-keygen -t rsa -C "youremail@example.com"
