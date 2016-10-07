@@ -15,3 +15,8 @@ remove file:
 	git rm
 remote repo:
 	ssh key : ssh-keygen -t rsa -C "youremail@example.com"
+	associate : git remote add origin git@github.com:hjk1023/Git_Learning.git
+	first push : git push -u origin master
+	push : git push origin master
+clone:
+	 git clone git@github.com:hjk1023/Git_Learning.git
