@@ -27,3 +27,4 @@ branch:
 	create & switch : git checkout -b <name>
 	merge : git merge <name>
 	delete : git branch -d <name>
+	conflict : git log --graph --pretty=oneline --abbrev-commit
