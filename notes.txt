@@ -28,4 +28,6 @@ branch:
 	merge : git merge <name>
 	delete : git branch -d <name>
 	conflict : git log --graph --pretty=oneline --abbrev-commit
-	bug branch : git stash \ git stash list \ git stash pop = git stash apply + git stash drop
+	bug branch : git stash \ git stash list \ git stash pop = git stash apply + git stash dropc
+	delete un-merged branch : git branch -D <name>
+	
